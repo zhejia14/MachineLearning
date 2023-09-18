@@ -18,13 +18,14 @@ scale\_train\_test.py: 將dataset.txt作為輸入資料集
 先將dataset.txt使用svm-scale進行縮放（-l -1 -u 1），使用grid.py進行5-fold cross-validation 尋找best c and gamma 開始進行訓練（svm-train），手動輸入c and gamma參數，訓練使用RBF kernel，輸出模型後使用（svm-predict）將所有資料用模型測試輸出準確率
 
 #### Experimental results:
+c = 32768  gamma = 0.00122
+![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.001.png)
 
-![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.001.png)c = 32768  gamma = 0.00122
+c = 32768  gamma = 0.000030517
+![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.002.png)
 
-![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.002.png)c = 32768  gamma = 0.000030517
-
-![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.003.png)c = 32768  gamma = 0.001
-
+c = 32768  gamma = 0.001
+![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.003.png)
 利用5-fold cross validation，至少找三組C and γ 參數
 
 最好的參數 c = 32768  gamma = 0.000030517
@@ -34,11 +35,13 @@ scale\_train\_test.py: 將dataset.txt作為輸入資料集
 
 在scaling之後使用未scaling的C=32768 and γ=0.000030517
 
-![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.004.png) 準確率較低 : 71.4%
+![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.004.png)
+準確率較低 : 71.4%
 
 在scaling之後進行5-fold cross-validation 尋找到的best C and γ 準確率很高:
+99% 比尚未使用scaling的還好
+![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.005.png)
 
-99% 比尚未使用![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.005.png)scaling的還好
 
 #### Conclusion:
 
