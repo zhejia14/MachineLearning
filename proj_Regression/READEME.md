@@ -28,6 +28,6 @@ Compare the results to those in 4).
 #### Problem6 :
 隨著 λ 值變化在同樣類型的函數資料 Five-fold cross-validation errors 值可能會 下降，但如果模型複雜度太低也會導致數據變差 e.g. 1/m 1000/m
 #### Conclusion:
-linear regression 的目標是找到最佳擬合線，使得觀察到的資料點和預測值之間 的距離最小，polynomial regression 的目標是找到最佳擬合多項式函數來描述數 據，在這實驗中我們發現兩種迴歸方式所呈現的結果，主要的差異在於線性的 假設，為了避免模型過度擬合加入 regularization 的方式對訓練數據的擬合能力 進行抑制，降低驗證數據上的錯誤率，但若模型變得太簡單，無法很好地擬合 數據，在驗證數據上的表現也會變差，需要在適當的範圍內調整λ值，以獲得 最佳的模型性能，當 training error 與 Five-fold cross-validation errors 差距很大 時表示模型出現過度擬和的現象，而資料點過少也會造成數據不準確，在資料 集配合適用的迴歸方法才能得到好的模型結果
+linear regression 的目標是找到最佳擬合線，使得觀察到的資料點和預測值之間 的距離最小，polynomial regression 的目標是找到最佳擬合多項式函數來描述數 據，在這實驗中我們發現兩種迴歸方式所呈現的結果，主要的差異在於線性的 假設，為了避免模型過度擬合加入 regularization 的方式對訓練數據的擬合能力 進行抑制，降低驗證數據上的錯誤率，但若模型變得太簡單，無法很好地擬合 數據，在驗證數據上的表現也會變差，需要在適當的範圍內調整λ值，以獲得最佳的模型性能，當 training error 與 Five-fold cross-validation errors 差距很大 時表示模型出現過度擬和的現象，而資料點過少也會造成數據不準確，在資料集配合適用的迴歸方法才能得到好的模型結果
 #### Discussion:
 在計算 training error 時雖然有現有的 function 可以使用，但跑出來的數據卻非 常奇怪，所以自己寫公式帶入。
