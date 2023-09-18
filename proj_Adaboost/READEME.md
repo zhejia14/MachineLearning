@@ -1,5 +1,5 @@
 ### ML Assignment #3
-
+Observing and executing the sample program.
 #### Problem 1 :
 
 Adaboost parameters
