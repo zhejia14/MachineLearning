@@ -4,9 +4,9 @@
 
 Adaboost parameters
 
-![](Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.001.png)
+![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.001.png)
 
-train: 訓練資料集![](Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.002.png)
+train: 訓練資料集![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.002.png)
 
 train\_label: 訓練資料的真實類別
 
@@ -18,25 +18,25 @@ cycles: 迭代次數（弱分類器數量）
 
 distribution: 樣本的權重分佈，在一開始根據資料量設定權重皆為 1
 
-![](Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.003.png)
+![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.003.png)
 
 #### Problem 2:
 
-![](Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.004.png)
+![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.004.png)
 
 weakleaner: 弱學習器調用 weakLearner 函數
 
-![](Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.005.png)
+![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.005.png)
 
 在 weakleaner 函數中 distribution 將 threshold 的區間值設定為 16，根據 feature 與 label的差值是不是大於或等於 16的倍數計算加權的錯誤率
 
-![](Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.006.png)
+![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.006.png)
 
 找出錯誤率最小的弱分類器 0.5是隨機猜測的狀況，所以越接近的表示錯誤率越高
 
 learning algorithm A 挑選計算錯誤率離0.5最遠的樣本與分類器來調整參數
 
-![](Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.007.png)
+![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.007.png)
 
 之後更新 distribution : abs(label-(train(:,i)>=t))預測與真實的差異值，1 減去此差值使得分類錯誤的樣本獲得更的大的權重，正確樣本的權重減少，beta(j):權重 最後將 distribution 確保總和是 1
 
@@ -44,9 +44,9 @@ learning algorithm A 挑選計算錯誤率離0.5最遠的樣本與分類器來�
 
 #### Problem 3:
 
-![](Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.008.png)
+![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.008.png)
 
-![](Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.009.png)
+![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.009.png)
 
 將 s( beta(j))、feature i (i)、threshold θ(t) 放入 boosted 陣列
 
