@@ -36,11 +36,11 @@ Experimental results:
 
 Problem 2 : Generatethedatasamplesthreetimesandcalculatetheaverage numberofiterationswhenPLAhalts.
 
-![](Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.001.jpeg)
+![](Pic/Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.001.jpeg)
 
-![](Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.002.jpeg)
+![](Pic/Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.002.jpeg)
 
-![](Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.003.jpeg)
+![](Pic/Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.003.jpeg)
 
 PLAAverage iterations :(5+10+3)/3= 6
 
@@ -48,17 +48,17 @@ Problem 3 : ImplementPocketAlgorithmandcomparetheexecutiontimetoPLA onthesamedat
 
 PLA : 0.009s
 
-![](Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.004.jpeg)
+![](Pic/Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.004.jpeg)
 
 Pocket:0.093s
 
-![](Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.005.jpeg)
+![](Pic/Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.005.jpeg)
 
 PLA : 0.009s <Pocket:0.093s 在可線性分割的資料集下 PLA 的速度會比 Pocket 快
 
 Problem 4 : Mislabel50positiveand50negativesamplesbyincorrectlabel. ReporttheaccuracyofPocketAlgorithmbythissettingandthesettingin Problem3.
 
-![](Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.006.jpeg)
+![](Pic/Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.006.jpeg)
 
 Accuracy= ( ( samples - errors ) /samples ) \* 100%
 
@@ -70,9 +70,9 @@ Conclusion:
 
 PLA 在線性可分割的資料集可以找到 f(x) 將資料二分，Pocket 也同樣可以 找到 f(x) 但因為 Pocket 需要將一最佳權重記錄下來，每一次都需要計算錯誤資 料量相比較，所以在線性可分割的資料集中速度會比 PLA 慢，而當資料集不可 分割的狀態，經由實驗觀察在同樣迭代 10萬次的情況，Pocket 的結果會比 PLA 的結果更好
 
-![](Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.007.jpeg)
+![](Pic/Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.007.jpeg)
 
-![](Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.008.jpeg)
+![](Pic/Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.008.jpeg)
 
 在 mislabel 的資料集
 
