@@ -19,18 +19,20 @@ scale\_train\_test.py: 將dataset.txt作為輸入資料集
 
 #### Experimental results:
 c = 32768  gamma = 0.00122
+
 ![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.001.png)
 
 c = 32768  gamma = 0.000030517
+
 ![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.002.png)
 
 c = 32768  gamma = 0.001
+
 ![](Pic/Aspose.Words.926edfe9-9b07-4d87-9f8f-51e6995f72e2.003.png)
+
+
 利用5-fold cross validation，至少找三組C and γ 參數
-
 最好的參數 c = 32768  gamma = 0.000030517
-
-
 
 
 在scaling之後使用未scaling的C=32768 and γ=0.000030517
