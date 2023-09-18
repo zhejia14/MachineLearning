@@ -6,7 +6,9 @@ Adaboost parameters
 
 ![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.001.png)
 
-train: 訓練資料集![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.002.png)
+![](Pic/Aspose.Words.241dadcd-53d4-4f91-9fb2-236cd761f69c.002.png)
+
+train: 訓練資料集
 
 train\_label: 訓練資料的真實類別
 
