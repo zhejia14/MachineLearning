@@ -30,7 +30,7 @@
 
 #### Experimental results:
 
-##### Problem 2 : Generatethedatasamplesthreetimesandcalculatetheaverage numberofiterationswhenPLAhalts.
+#### Problem 2 : Generatethedatasamplesthreetimesandcalculatetheaverage numberofiterationswhenPLAhalts.
 
 ![](Pic/Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.001.jpeg)
 
@@ -40,7 +40,7 @@
 
 PLA Average iterations :(5+10+3)/3= 6
 
-##### Problem 3 : ImplementPocketAlgorithmandcomparetheexecutiontimetoPLA onthesamedataset ( 2000data )
+#### Problem 3 : ImplementPocketAlgorithmandcomparetheexecutiontimetoPLA onthesamedataset ( 2000data )
 
 PLA : 0.009s
 
@@ -52,7 +52,7 @@ Pocket : 0.093s
 
 PLA : 0.009s <Pocket:0.093s 在可線性分割的資料集下 PLA 的速度會比 Pocket 快
 
-##### Problem 4 : Mislabel50positiveand50negativesamplesbyincorrectlabel.ReporttheaccuracyofPocketAlgorithmbythissettingandthesettingin Problem3.
+#### Problem 4 : Mislabel50positiveand50negativesamplesbyincorrectlabel.ReporttheaccuracyofPocketAlgorithmbythissettingandthesettingin Problem3.
 
 ![](Pic/Aspose.Words.108513d0-b976-4332-8c26-acfca115fd6e.006.jpeg)
 
