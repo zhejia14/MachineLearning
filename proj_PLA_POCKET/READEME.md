@@ -1,6 +1,7 @@
-### ML Assignment#1 409410120 資工三 劉哲嘉 Execution description:
+### ML Assignment#1 劉哲嘉 
 
-#### 檔案說明：f(x) =y= 3x+7 隨機座標範圍： -100< x, y <100
+#### Execution description:
+檔案說明：f(x) = y = 3x+7 隨機座標範圍： -100< x, y <100
 
 ( 1 ) points30.py 創造 15筆正例( 1 ) 15筆反例( -1 ) 以 f(x)線性分割
 
