@@ -12,12 +12,11 @@
 
 原資料集執行結果：
 
+![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.003.png)
 
 ![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.001.png)
 
 ![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.002.png)
-
-![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.003.png)
 
 transforms.RandomAffine(32, translate=None, scale=[1,2], shear=4)
 
@@ -47,12 +46,11 @@ transforms.RandomHorizontalFlip(0.5)
 transforms.AugMix(severity= 8,mixture\_width=4)
 對圖片進行不同的數據增強（Aug），然後混合（Mix）多個數據增強後的圖片; 執行結果：（原資料＋擴增資料集＝原資料集2倍）
 
+![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.012.png)
 
 ![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.010.png)
 
 ![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.011.png)
-
-![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.012.png)
 
 多種data transforms的資料集
 
@@ -74,12 +72,11 @@ transforms.AugMix(severity= 8,mixture\_width=4)
 
 執行結果：（原資料＋擴增資料集＝原資料集2倍）
 
+![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.016.png)
 
 ![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.014.png)
 
 ![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.015.png)
-
-![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.016.png)
 
 
 將資料集增加（原資料＋擴增資料集\*3＝原資料集4倍）
