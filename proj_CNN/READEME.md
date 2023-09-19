@@ -38,9 +38,9 @@ transforms.RandomHorizontalFlip(0.5)
 
 ![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.007.png)
 
-![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.008.png)
-
 ![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.009.png)
+
+![](Pic/Aspose.Words.929c91b6-62fb-45b5-89c3-35e43a55d01f.008.png)
 
 
 transforms.AugMix(severity= 8,mixture\_width=4)
